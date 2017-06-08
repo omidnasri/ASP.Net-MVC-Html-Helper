@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "About Paul's Training Company";
+}
+
+<h1>About Paul's Training Company</h1>
+
+<p>Paul's Training Company is committed to bringing you the best quality training available. Through on-site, webcasts, books, and one-on-one mentoring, we can help you and your team become the best programmers you can be.</p>
+
+<h2>Our Leadership</h2>
+<div class="well well-sm">
+  <div class="row">
+    <div class="col-md-2">      
+      @Html.Image("/Images/Michael.jpg",
+           "Michael Krasowski",
+           new { data_action="moreinfo", data_toggle="imgtoggle" })
+    </div>
+    <div class="col-md-10">
+      Michael Krasowski is the COO of Paul's Training Company. He has been instrumental in making Paul's Training Company into one of the best training companies in the country.
+    </div>
+  </div>
+</div>
+
+<div class="well well-sm">
+  <div class="row">
+    <div class="col-md-2">
+      @Html.Image("/Images/John.jpg",
+           "John Kuhn",
+           "img-responsive img-rounded",
+           "imgJohn")      
+    </div>
+    <div class="col-md-10">
+      John Kuhn is the CTO of Paul's Training Company. John is reponsible for all the great technology that our customers enjoy when using this site.
+    </div>
+  </div>
+</div>
